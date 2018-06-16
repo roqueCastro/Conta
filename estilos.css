@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+#popup {
+   visibility: hidden;
+   opacity: 0;
+  
+}
+#popup:target {
+   visibility:visible;
+   opacity: 1;
+   background-color: black;
+   position: fixed;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   margin:0;
+   z-index: 999;
+   transition:all 1s;
+	margin-top: 50%;
+	height:70%;
+
+}
+
+.popup-contenedor {
+   position: relative;
+   margin:7% auto;
+   padding:50px 50px;
+   background-color: #fafafa;
+   color:#333;
+   border-radius: 3px;
+   width:100%;
+   margin-top: -5%;
+	height: 100%;
+	padding-top: 35%;
+	font-size: 17px;
+}
+a.popup-cerrar {
+   position: absolute;
+   top:3px;
+   right:3px;
+   background-color: #333;
+   padding:7px 10px;
+   font-size: 20px;
+   text-decoration: none;
+   line-height: 1;
+   color:#fff;
+}
+#iniciar{
+	color: cornsilk;
+	background-color:#3498db;
+	width:15%;
+	height: 15%;
+	font-size: 25px;
+	border-radius: 4px 4px 4px 4px;
+	text-align: center;
+	
+}
+
+
+
+h3{
+	text-align: center;
+}
+
+
+#ini{
+	margin-top: 50px;
+	text-align: center;
+	
+}
+#header2{
+	color: brown;
+	margin-top: 140%;
+}
+@media (max-width:400px){
+	form{
+		
+		width:100%;
+	}
+}
+
+/* Estilos del formulario del formulario de olvido contraseña */
+
+#boton{
+	margin-top: 10%;
+}
+
+#btCan{
+	margin-top: 10%;
+}
+#h2Olvi{
+	color: white;
+}
+#bi{
+	color:brown;
+}
+a.p-cerrar {
+	color: white;
+	background-color:#3498db;
+	border-radius: 4px 4px 4px 4px;
+	font-size: 17px;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	padding:10px 10px;
+	width: 100%;
+	padding-left:7%;
+	text-align: center;
+}
+#cedula{
+	background-color: aliceblue;
+	margin-top: 2%;
+	color: black;	
+	
+}
+#email{
+	background-color: aliceblue;
+	
+}

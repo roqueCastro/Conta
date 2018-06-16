@@ -1,0 +1,20 @@
+﻿h3{
+	text-align: center;
+}
+
+
+#ini{
+	margin-top: 15px;
+	text-align: center;
+	
+}
+#header2{
+	margin-top: 140%;
+}
+@media (max-width:400px){
+	form{
+		
+		width:100%;
+	}
+}
+

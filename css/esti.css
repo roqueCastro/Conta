@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+		#iniciar{
+	color: cornsilk;
+	background-color:#550000;
+	width:100%;
+	height: 7%;
+	font-size: 18px;
+	border-radius: 4px 4px 4px 4px;
+	text-align: center;
+}
+		#ata{
+	color: cornsilk;
+	background-color:#550000;
+	width:100%;
+	height: 7%;
+	margin-top: 4%;
+	font-size: 18px;
+	border-radius: 4px 4px 4px 4px;
+	text-align: center;
+}
+
+
+
+
+h3{
+	text-align: center;
+}
+
+
+#tex{
+	color: white;
+	font-size: 17px;
+	
+	
+}
+		#boton{
+	margin-top: 10%;
+}
+
+#btCan{
+	margin-top: 10%;
+}
+#h2Olvi{
+	color: white;
+}
+#nom{
+	background-color: aliceblue;
+	margin-top: 2%;
+	color: dodgerblue;
+	font-size: 17px;
+	
+}
+#tel{
+	background-color: aliceblue;
+	margin-top: 2%;
+	color: dodgerblue;
+	font-size: 17px;
+	
+}
+
+#cor{
+	background-color: aliceblue;
+	margin-top: 2%;
+	color: dodgerblue;
+	font-size: 17px;
+	
+}
+#con{
+	background-color: aliceblue;
+	margin-top: 2%;
+	color: black;	
+	
+}
+
+#cedula{
+	background-color: aliceblue;
+	margin-top: 2%;
+	color: black;	
+	
+}
+#email{
+	background-color: aliceblue;
+	
+}	
