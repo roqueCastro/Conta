@@ -68,11 +68,7 @@
 		    var debe = $("#debe").val();
 		    var sal = $("#sal").val();
 		    var fiador = $("#fia").val();
-	
-			 if(sal < total_fia){
-					$("#resultado").html("No te alcanza el saldo" );	
-				    $("#T_Presta_Fi").focus();
-		   	  }else if(total_fia.length == 0) {
+		 if(total_fia.length == 0) {
 				$("#resultado").html("Inserte el valor a pagar");	
 				$("#T_Presta_Fi").focus();
 			   }else if(total_fia > debe) {
